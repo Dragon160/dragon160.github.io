@@ -1,0 +1,18 @@
+# Welcome to Jekyll!
+#
+# This config file is meant for settings that affect your whole blog, values
+# which you are expected to set up once and rarely need to edit after that.
+# For technical reasons, this file is *NOT* reloaded automatically when you use
+# 'jekyll serve'. If you change this file, please restart the server process.
+
+# Site settings
+title: Michaels Blog
+description: "A blog about everything that is related to .NET / C# devlopment including Azure, Xamarin and other cool stuff!"
+baseurl: "" # the subpath of your site, e.g. /blog
+url: "http://yourdomain.com" # the base hostname & protocol for your site
+twitter_username: dragon16111
+github_username:  dragon160
+xing_id: Michael_Probst19
+
+# Build settings
+markdown: kramdown
