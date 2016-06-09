@@ -17,14 +17,14 @@ Hi everyone,
 
 I'd like you to welcome to my blog. I am a software engineer working at [Zühlke][4] in Munich, Germany.
 
-My daily work is all about consulting and programing for my customers - mainly for topics like
+My daily work is all about consulting and programming for my customers - mainly for topics like
 
 1. Cloud Providers like Azure
 1. .NET / C# Development
 1. Mobile Development for iOS / Android (often with [Xamarin / Xamarin.Forms][5] and [MvvmCross][6])
 1. Agile Consulting
 
-Over the time I collected a lot of topics / ideas and other things in my head so I thought by myself: 'Its time for a own blog' :-)
+Over the time I collected a lot of topics / ideas and other things in my head so I thought by myself: "It's time for an own blog" :-)
 
 I know it is very difficult to bring a blog like this to live; and even more diffcult: keep it alive!
 So, lets see how it works out..
