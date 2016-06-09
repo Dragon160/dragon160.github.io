@@ -1,30 +1,29 @@
 # Site settings
-title: Grayscale
-email: your-email@domain.com
-url: https://example.github.io
-description: "Write an awesome description for your new site here. You can edit this line in _config.yml. It will appear in your document head meta (for Google search results) and in your feed.xml site description."
+title: "Michaels Blog"
+email: 
+description: "My blog about C# / .NET development including topics like Xamarin, Azure and other cool stuff"
+baseurl: ""
+url: "http://carte-noire.jacobtomlinson.co.uk/"
+title_description: "I am a Senior Software Engineer working @ Zühlke Engineering in Munic. My blog is about C# / .NET development including topics like Xamarin, Azure and other cool stuff"
+title_image: "https://secure.gravatar.com/avatar/3d065a29dbf45e6c57aeb61c757770da?s=128"
+addthis_id: ra-513c6fa83da6ec67
+post_limit: 5
 
-# Color settings (hex-codes without the leading hash-tag)
-color:
-  primary-dark: '#000000'
-  links: '#219ab3'
+# Social usernames/URLs
+twitter_username: dragon16111
+github_username:  dragon160
+xing_username: Michael_Probst19
 
-# Footer settings
-footer: Your Website
-
-# Social networks usernames (many more available: google-plus, flickr, dribbble, pinterest, instagram, tumblr, linkedin, etc.)
-social:
-  - title: twitter
-    url: https://twitter.com/SBootstrap
-  - title: facebook
-    url:
-  - title: stack-overflow
-    url: http://stackoverflow.com/questions/tagged/jekyll
-  - title: bitbucket
-    url: http://bitbucket.org/jekyll
-  - title: github
-    url: https://github.com/IronSummitMedia/startbootstrap
+# Footer
+footer_left: "Theme made with <i class=\"fa fa-heart\"></i> by <a href=\"https://twitter.com/_JacobTomlinson\">Jacob Tomlinson</a>"
+footer_right: "&lt;/&gt; on <a href=\"https://github.com/jacobtomlinson/carte-noire\">Github</a> &nbsp;<i class=\"fa fa-github-alt\"></i>"
 
 # Build settings
 markdown: kramdown
+
+kramdown:
+  input: GFM
+  syntax_highlighter: rouge
+
 permalink: pretty
+exclude: [vendor]
