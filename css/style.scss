@@ -44,6 +44,7 @@ body {
 	font-family: 'Open Sans', sans-serif;
 	font-weight: 300;
 	background-color: $dark;
+	//background-color: yellow;
 	color: $white;
 	font-size: 16px;
 	height: 100%;
@@ -292,7 +293,7 @@ ul {
 		h2 {
 			margin-bottom: 30px;
 			color: $light-blue;
-			font-size: 24px; //modified by mip (26)
+			font-size: 26px;
 		}
 
 		ul {
@@ -301,7 +302,7 @@ ul {
 
 			li {
 				margin-bottom: 20px;
-				font-size: 18px; //modified by mip (24)
+				font-size: 24px;
 
 				a:hover {
 					color: $light-medium;
@@ -553,7 +554,7 @@ ul {
 			padding-bottom: 10px;
 
 			@media (min-width: $screen-sm-min) {
-				font-size: 24px;
+				font-size: 18px;
 				padding-left: 30px;
 				padding-right: 30px;
 				padding-top: 40px;
