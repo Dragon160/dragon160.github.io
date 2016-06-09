@@ -4,7 +4,7 @@ email:
 description: "My blog about C# / .NET development including topics like Xamarin, Azure and other cool stuff"
 baseurl: ""
 url: "http://carte-noire.jacobtomlinson.co.uk/"
-title_description: "I am a Senior Software Engineer working @ Zühlke Engineering in Munic. My blog is about C# / .NET development including topics like Xamarin, Azure and other cool stuff"
+title_description: "I am Senior Software Engineer @ Zühlke Engineering in Munich. My blog is about C# / .NET development including topics like Xamarin, Azure and other cool stuff"
 title_image: "https://secure.gravatar.com/avatar/3d065a29dbf45e6c57aeb61c757770da?s=128"
 addthis_id: ra-513c6fa83da6ec67
 post_limit: 5

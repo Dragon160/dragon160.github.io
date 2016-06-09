@@ -10,6 +10,7 @@ $linkedin:       #2b77b1;
 $google-plus:    #c95644;
 $github:         #f6c2a4;
 $stack-overflow: #c98b3b;
+$xing:           #006567;
 $rss:            #eea33a;
 
 $darker:         #21211E;
@@ -188,6 +189,10 @@ ul {
 		color: $google-plus;
 	}
 
+	.fa-xing:hover {
+		color: $xing;
+	}
+
 	.fa-github-alt:hover {
 		color: $github;
 	}
@@ -287,7 +292,7 @@ ul {
 		h2 {
 			margin-bottom: 30px;
 			color: $light-blue;
-			font-size: 26px;
+			font-size: 24px; //modified by mip (26)
 		}
 
 		ul {
@@ -296,7 +301,7 @@ ul {
 
 			li {
 				margin-bottom: 20px;
-				font-size: 24px;
+				font-size: 18px; //modified by mip (24)
 
 				a:hover {
 					color: $light-medium;

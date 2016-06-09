@@ -25,6 +25,7 @@ My daily work is all about consulting and programing for my customers - mainly f
 1. Agile Consulting
 
 Over the time I collected a lot of topics / ideas and other things in my head so I thought by myself: 'Its time for a own blog' :-)
+
 I know it is very difficult to bring a blog like this to live; and even more diffcult: keep it alive!
 So, lets see how it works out..
 
@@ -37,7 +38,7 @@ I also tried a lot of different themes. At the end I decided give [Jacobs][7] th
 
 So, I hope you like it.
 
-- Michael 
+Michael 
 
 [1]: http://github.com
 [2]: https://jekyllrb.com/
