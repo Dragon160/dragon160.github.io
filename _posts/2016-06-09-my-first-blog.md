@@ -1,6 +1,6 @@
 ---
 layout:     post
-title:      My first blog
+title:      Welcome to my blog
 date:       2016-06-06
 author:     Michael Probst
 summary:    
