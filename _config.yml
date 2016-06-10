@@ -9,6 +9,9 @@ title_image: "https://secure.gravatar.com/avatar/3d065a29dbf45e6c57aeb61c757770d
 addthis_id: ra-513c6fa83da6ec67
 post_limit: 5
 
+# Google services
+google_analytics: UA-79137322-1
+
 # Social usernames/URLs
 twitter_username: dragon16111
 github_username:  dragon160
