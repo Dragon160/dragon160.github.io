@@ -17,7 +17,7 @@ tags:
 [Parse][1] is a free and easy BAAS (Backend-as-a-Service) Provider founded by Facebook. 
 You can easily manage your data, user and even files and access it via different APIs for platforms
 like Xamarin, .NET, REST and Javascript. 
-It's perfect to setup a full functional backup in no time.
+It's perfect to setup a fully functional backend in no time.
 <br/>
 Long story short: It's a great tool .. unfortunately the hosted Parse Service will shutdown with the beginning of next year (January 2017).
 
