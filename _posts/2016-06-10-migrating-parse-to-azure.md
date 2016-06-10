@@ -30,7 +30,7 @@ Everything Parse has build is now available on Github. That is mainly the [Parse
 Now you need to migrate your data and host your own parse server ;-)<br/>
 (Of course you can rebuild your complete backend and use other providers - but lets assume that you want to stay at the Parse ecosystem)
 <br/>
-Parse offers a lot of choices to migrate: https://github.com/ParsePlatform/Parse-Server/wiki#migrating-to-parse-server-from-hosted-parse
+Parse offers a lot of choices to migrate: [Parse Migration Guide](https://github.com/ParsePlatform/Parse-Server/wiki#migrating-to-parse-server-from-hosted-parse)
 
 
 ## Migration Mapping ##
