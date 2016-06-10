@@ -1,7 +1,7 @@
 ---
 layout:     post
 title:      Migrating Parse to Azure
-date:       2016-06-09
+date:       2016-06-10
 author:     Michael Probst
 summary:    
 categories: Azure
