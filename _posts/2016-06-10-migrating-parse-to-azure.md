@@ -64,7 +64,7 @@ For demo purposes I added a free (limited to 500MB) Mongo database with the help
 (Be sure to add a user for the DB - you will need it for the connection string)
 
 Now you can take the connection string and use it for the migration step with Parse. <br/>
-(Btw.. don't try it - I changed the password ;-))
+(Btw.. I changed the password ;-))
 
 Start Migration:
 ![Parse-Start-Migration](/images/parse_migration/ParseStartMigration.png)
@@ -104,7 +104,7 @@ The template for Azure will create a few items:
 **Btw.. is the Parse-Server Code integrated into the Azure template!?**
 
 No - fortunatley it is not. The Azure Parse-Server service uses a nice feature of Azure: _Deployment-Source_. <br/>
-When navigating to "Application Settings" -> "Deployment Sources" you can see that Azure is actually doing nothing but getting all the parse-server sourcecode from the original Github page.
+When navigating to `Application Settings` -> `Deployment Sources` you can see that Azure is actually doing nothing but getting all the parse-server sourcecode from the original Github page.
 This also means, that you can always update your parse-server with the latest changes / bugfixes.
 
 ![Azure-Deployment-Source](/images/parse_migration/AzureDeploymentSource.png)
@@ -128,7 +128,7 @@ The next step should be to actually _see_ our data via the parse-dashboard.
 As I mentioned also the [Parse-Dashboard][3] is hosted on Github and can be forked / modified or just used. We do not want to use it by a custom installation - there is also a Azure Extension available which can be installed very easily.
 The only thing you have to do is to install this extension.
 
-Unfortunately the Parse-Dashboard on Azure is hardly documented. You need to navigtate to the Parse-App -> Tools -> Extensions -> Add -> 'ParseDashboard'.
+Unfortunately the Parse-Dashboard on Azure is hardly documented. You need to navigtate to the Parse-App -> `Tools` -> `Extensions` -> `Add` -> `ParseDashboard`.
 
 ![Azure-Parse-Dashboard-Installation](/images/parse_migration/AzureParseDashboardInstallation.png)
 
@@ -142,7 +142,7 @@ And taadaa :)
 ## Step 4: Working with Files ##
 
 The Azure Parse Server can also handle files (like images) and store it within its own storage (BLOB storage). 
-Just navigate to the Dashboard on your Azure Parse-Server add a new Column named "ImageExample" (of type 'File'). If you upload a file you will notice that this file will be stored within your BLOB storage.
+Just navigate to the Dashboard on your Azure Parse-Server add a new Column named `ImageExample` (of type 'File'). If you upload a file you will notice that this file will be stored within your BLOB storage.
 The Parse-Server code for Azure hase been configured to use this as the storage (again, you can modify this within the ApplicationSettings).
 
 ![Azure-File](/images/parse_migration/AzureFile.png)
@@ -164,7 +164,7 @@ Just copy the file key of your original parse app (App Settings -> Security & Ke
 
 Unfortunately you need to read and set the file key by yourself within the Cloud-Code (at least until today).
 
-To achieve this just navigate to your Azure Parse-Server WebApp -> Tools -> Visual Studio Online (Preview) -> Open (or activate if not present).
+To achieve this just navigate to your Azure Parse-Server WebApp -> `Tools` -> `Visual Studio Online (Preview)` -> `Go` (or activate if not present).
 With **Visual Studio Online** (which is basically the new Visual Studio Code) you can modify and write cloud code directly within the browser.
 
 The file we want to edit is: 
@@ -175,7 +175,7 @@ The file we want to edit is:
 
 {% endhighlight %}
 
-Just read the added setting "FILE_KEY" and add it to the configuration:
+Just read the added setting `FILE_KEY` and add it to the configuration:
 
 {% highlight javascript %}
 
